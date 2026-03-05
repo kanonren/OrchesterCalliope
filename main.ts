@@ -1,7 +1,7 @@
 radio.onReceivedString(function (receivedString) {
     if (receivedString == "BEAT") {
-        let spielt_gerade = false
-        if (spielt_gerade == true) {
+        let spielt_gerade = 0
+        if (spielt_gerade) {
             melodie = [
             "C",
             "C",
